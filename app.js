@@ -14,6 +14,7 @@ $('#loginGoogle').click(function(){
     });
 });
 
+
 $('#loginFacebook').click(function(){
     firebase.auth()
     .signInWithPopup(providerFacebook)
